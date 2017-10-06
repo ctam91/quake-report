@@ -17,9 +17,9 @@ import java.util.List;
  * Created by tammy on 9/25/2017.
  */
 
-public class EarthquakeAdapater extends ArrayAdapter<Earthquake> {
+public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
 
-    public EarthquakeAdapater(@NonNull Context context, @NonNull List<Earthquake> objects) {
+    public EarthquakeAdapter(@NonNull Context context, @NonNull List<Earthquake> objects) {
         super(context, 0, objects);
     }
 
